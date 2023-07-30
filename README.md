@@ -23,7 +23,7 @@
 
 ## Версия: Java 17.0.8 (Corretto)
 
-## Примеры запуска (IntelliJ IDEA):
+## Пример запуска (IntelliJ IDEA):
 
 Run -> Edit Configurations -> Program arguments
 
@@ -36,6 +36,16 @@ Run -> Edit Configurations -> Program arguments
 ``` -i out.txt in1.txt in2.txt in3.txt sorted 2 in1.txt ```
 
 Run 'Main.main()'
+
+## Пример запуска с помощью jar файла:
+
+Переместите файл TestTaskCFT.jar из репозитория в следующую директорию: `./out/production/TestTaskCFT`
+
+Пожалуйста, убедитесь, что входные файлы находятся в директории: `./out/production/ru/task/data`, а выходная `output` папка существует в: `./out/production/ru/task/`
+
+Запустите приложение через консоль, используя следующую пример команду:
+
+`java -jar TestTaskCFT.jar -i out.txt in1.txt in2.txt`
 
 ## Ограничение по памяти
 
